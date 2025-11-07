@@ -4,3 +4,5 @@ build/
 *.pdb
 *.exe
 *.log
+
+**/bin/
