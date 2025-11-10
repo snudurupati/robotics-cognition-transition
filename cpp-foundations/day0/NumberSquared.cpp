@@ -1,7 +1,14 @@
 #include <iostream>
-//import std;
 
 using namespace std;
+
+double getUserInput ()
+{
+    double x;
+    cout <<"Enter a number:";
+    cin >> x;
+    return x;
+}
 
 double square(double x)
 {
@@ -10,5 +17,6 @@ double square(double x)
 
 int main() 
 {
-    cout << "the square of " << "5.5 is: " << square(5.5) << "\n";
+    double n = getUserInput();
+    cout << "the square of " << n <<" is: " << square(n) << "\n";
 }
