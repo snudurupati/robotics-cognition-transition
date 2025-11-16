@@ -1,5 +1,9 @@
 #include <iostream>
 
+//forward declerations
+int factorial(int); 
+double square(double x);
+
 int main()
 {
     std::cout << "Hello, World\n";
@@ -13,5 +17,10 @@ int main()
 
     std::cout << a << ", " << b << ", " << c << ", " << d << "\n"; // \n doesnt just adds a new line
     std::cout << sizeof(int) <<" bytes\n"; //prints the size of of int on this machine and this compiler
-    std::cout << "bye now!" << std::endl; //endl flushes the buffer
+   
+    std::cout <<"the square of " << a <<" is " << square(a) << "\n";
+    std::cout <<"the factorial of " << a <<" is " << factorial(a) << "\n";
+
+     std::cout << "bye now!" << std::endl; //endl flushes the buffer
+
 }

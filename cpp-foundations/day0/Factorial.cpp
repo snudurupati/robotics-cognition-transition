@@ -1,12 +1,4 @@
-#include <iostream>
-
-int factorial(int); //forward decleration
-
-int main()
-{
-    int x {10};
-    std::cout<< "factorial of " << x <<" is: " << factorial(x) << "\n";
-}
+//factorial function using for loop
 
 int factorial(int n)
 {
